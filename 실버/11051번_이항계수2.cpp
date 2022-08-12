@@ -18,7 +18,7 @@ int main() {
 	int N, K;
 	cin >> N >> K;
 
-	K = K > N - K ? N - K : K;
+	K = K > N - K ? N - K : K;	//계산속도를 빠르게 하기 위해 nCr = nCn-r 이용
 	cout << binomal(N, K);
 
 	return 0;
