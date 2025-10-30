@@ -1,0 +1,7 @@
+select YEAR(a.DIFFERENTIATION_DATE) YEAR,
+    (select max(b.size_of_colony)
+    from ecoli_data b
+    where YEAR(a.DIFFERENTIATION_DATE) = YEAR(b.DIFFERENTIATION_DATE)
+    group by year(b.DIFFERENTIATION_DATE)) - a.SIZE_OF_COLONY AS YEAR_DEV, a.ID
+FROM ECOLI_DATA a
+ORDER BY YEAR, YEAR_DEV
