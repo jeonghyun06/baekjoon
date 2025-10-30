@@ -1,6 +1,6 @@
 # [level 4] 특정 세대의 대장균 찾기 - 301650 
 
-[문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/301650) 
+[문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/301650?language=mysql) 
 
 ### 성능 요약
 
@@ -16,7 +16,7 @@
 
 ### 제출 일자
 
-2025년 10월 30일 13:28:48
+2025년 10월 30일 13:42:44
 
 ### 문제 설명
 
